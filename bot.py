@@ -1,3 +1,8 @@
+from pyrogram import utils as pyroutils
+
+pyroutils.MIN_CHAT_ID = -999999999999
+pyroutils.MIN_CHANNEL_ID = -100999999999999
+
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram import filters, Client, errors, enums
 from pyrogram.errors import UserNotParticipant
