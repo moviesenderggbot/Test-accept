@@ -44,12 +44,6 @@ async def approve(_, m : Message):
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
         await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @xyz_bots **".format(m.from_user.mention, m.chat.title))
-        await app.send_btn = [[
-            InlineKeyboardButton("Updates Channel 🇮🇳", url=f"https://t.me/hshshsh")
-],[
-InlineKeyboardButton("Updates Channel 🇮🇳", url=f"https://t.me/hshshsh")
-
-        ]]
     reply_markup=InlineKeyboardMarkup(btn)
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
