@@ -61,27 +61,27 @@ async def approve(_, m: Message):
         welcome_text = "**Hello {}!\nWelcome To {}\n\n__Powered By : @xyz_bots **".format(kk.mention, op.title)
         button = InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("1. 😍🔥 𝘀𝗲𝘅𝘆 𝗯𝗵𝗮𝗯𝗵𝗶 𝗟𝗼𝘃𝗲𝗿𝘀 🔥😍", url="https://t.me/xyz_bots")
+            InlineKeyboardButton("1. 😍🔥 𝘀𝗲𝘅𝘆 𝗯𝗵𝗮𝗯𝗵𝗶 𝗟𝗼𝘃𝗲𝗿𝘀 🔥😍", url="https://t.me/GB_Links_Offical")
             ],[
-            InlineKeyboardButton("2. 🖤👅 𝗶𝗻𝘀𝘁𝗮 𝘃𝗶𝗿𝗮𝗹 𝘃𝗶𝗱𝗲𝗼𝘀 🤤💋 ", url="https://t.me/xyz_owner_bot")
+            InlineKeyboardButton("2. 🖤👅 𝗶𝗻𝘀𝘁𝗮 𝘃𝗶𝗿𝗮𝗹 𝘃𝗶𝗱𝗲𝗼𝘀 🤤💋 ", url="https://t.me/GB_LINKS")
             ],[
-            InlineKeyboardButton("3. 😍🤤 𝗗𝗲𝘀𝗶 𝗥𝗮𝗻𝗱𝗶 𝗰𝗵𝘂𝘁 👅💋", url="https://t.me/xyz_owner_bot")
+            InlineKeyboardButton("3. 😍🤤 𝗗𝗲𝘀𝗶 𝗥𝗮𝗻𝗱𝗶 𝗰𝗵𝘂𝘁 👅💋", url="https://t.me/+eudmbU69FGwzMDQ0")
             ],[
-            InlineKeyboardButton("4. 👅💋𝗰𝗵𝗮𝗿𝗮𝗺 𝘀𝘂𝗸𝗵 𝘃𝗶𝗱𝗲𝗼𝘀 🖤❤️‍🔥", url="https://t.me/xyz_owner_bot")
+            InlineKeyboardButton("4. 👅💋𝗰𝗵𝗮𝗿𝗮𝗺 𝘀𝘂𝗸𝗵 𝘃𝗶𝗱𝗲𝗼𝘀 🖤❤️‍🔥", url="https://t.me/+iDDgbgZ7PK0yNGNk")
             ],[
-            InlineKeyboardButton("5. 🔥😍𝗦𝗲𝘅𝘆 𝘃𝗶𝗿𝗮𝗹 𝘃𝗶𝗱𝗲𝗼𝘀 🖤💋", url="https://t.me/xyz_owner_bot")
+            InlineKeyboardButton("5. 🔥😍𝗦𝗲𝘅𝘆 𝘃𝗶𝗿𝗮𝗹 𝘃𝗶𝗱𝗲𝗼𝘀 🖤💋", url="https://t.me/+KiqAAgBg7NEyYzFk")
             ],[
-            InlineKeyboardButton("6. 🔥😍porn Hub collection 🖤💋", url="https://t.me/xyz_owner_bot")
+            InlineKeyboardButton("6. 🔥😍porn Hub collection 🖤💋", url="https://t.me/+StAWi9MLzZZhZTY8")
             ],[
-            InlineKeyboardButton("7.👄💦Aunty lovers 👻❤️‍🔥❤️‍🔥", url="https://t.me/xyz_owner_bot")  
+            InlineKeyboardButton("7.👄💦Aunty lovers 👻❤️‍🔥❤️‍🔥", url="https://t.me/+kh_w3pkctocyYzI0")  
             ],[
-            InlineKeyboardButton("8.😻🔥 𝗴𝗳 𝗯𝗳 𝗸𝗶 𝗰𝗵𝘂𝗱𝗮𝗶👅💋", url="https://t.me/xyz_owner_bot")
+            InlineKeyboardButton("8.😻🔥 𝗴𝗳 𝗯𝗳 𝗸𝗶 𝗰𝗵𝘂𝗱𝗮𝗶👅💋", url="https://t.me/dasi_video_sex")
             ],[
-            InlineKeyboardButton("9. DESI GF BF VIDEOS🥵🌚", url="https://t.me/xyz_owner_bot")
+            InlineKeyboardButton("9. DESI GF BF VIDEOS🥵🌚", url="https://t.me/+R4JHodCSQ2IzMDll")
             ],[
-            InlineKeyboardButton("10.👄💦Instagram Viral 👻❤️‍🔥❤️‍🔥", url="https://t.me/xyz_owner_bot")
+            InlineKeyboardButton("10.👄💦Instagram Viral 👻❤️‍🔥❤️‍🔥", url="https://t.me/GB_Links_Backup")
             ],[
-            InlineKeyboardButton("👉👉 𝙾𝚗𝚎 𝚝𝚊𝚙 𝚓𝚘𝚒𝚗 𝚊𝚕𝚕 👈👈", url="https://t.me/xyz_owner_bot")
+            InlineKeyboardButton("👉👉 𝙾𝚗𝚎 𝚝𝚊𝚙 𝚓𝚘𝚒𝚗 𝚊𝚕𝚕 👈👈", url="https://t.me/addlist/EGw8nT_eBjRhMTRl")
         ]])
         await app.send_video(
             kk.id, 
