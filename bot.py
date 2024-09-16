@@ -35,20 +35,58 @@ gif = [
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Main process ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+#@app.on_chat_join_request(filters.group | filters.channel & ~filters.private)
+#async def approve(_, m : Message):
+#    op = m.chat
+#    kk = m.from_user
+#    try:
+#        add_group(m.chat.id) 
+#        await app.approve_chat_join_request(op.id, kk.id)
+#        img = random.choice(gif)
+#        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @xyz_bots **".format(m.from_user.mention, m.chat.title))
+#        add_user(kk.id)
+#    except errors.PeerIdInvalid as e:
+#        print("user isn't start bot(means group)")
+#    except Exception as err:
+#        print(str(err))    
+
 @app.on_chat_join_request(filters.group | filters.channel & ~filters.private)
-async def approve(_, m : Message):
+async def approve(_, m: Message):
     op = m.chat
     kk = m.from_user
     try:
         add_group(m.chat.id)
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
-        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @xyz_bots **".format(m.from_user.mention, m.chat.title))
+        welcome_text = "**Hello {}!\nWelcome To {}\n\n__Powered By : @xyz_bots **".format(kk.mention, op.title)
+        button = InlineKeyboardMarkup(
+            [[
+            InlineKeyboardButton("Updates Channel 🇮🇳", url="https://t.me/xyz_bots")
+            ],[
+            InlineKeyboardButton("Support Chat", url="https://t.me/xyz_owner_bot")
+            ],[
+            InlineKeyboardButton("Support Chat", url="https://t.me/xyz_owner_bot")
+            ],[
+            InlineKeyboardButton("Support Chat", url="https://t.me/xyz_owner_bot")
+            ],[
+            InlineKeyboardButton("Support Chat", url="https://t.me/xyz_owner_bot")
+            ],[
+            InlineKeyboardButton("Support Chat", url="https://t.me/xyz_owner_bot")
+            ],[
+            InlineKeyboardButton("Support Chat", url="https://t.me/xyz_owner_bot")    
+        ]])
+        await app.send_video(
+            kk.id, 
+            img, 
+            caption=welcome_text, 
+            reply_markup=button
+        )
         add_user(kk.id)
+    
     except errors.PeerIdInvalid as e:
-        print("user isn't start bot(means group)")
+        print("User hasn't started the bot yet (PeerIdInvalid)")
     except Exception as err:
-        print(str(err))    
+        print(str(err))
  
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Start ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
