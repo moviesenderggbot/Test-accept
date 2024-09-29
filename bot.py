@@ -73,9 +73,9 @@ async def approve(_, m: Message):
             ],[
             InlineKeyboardButton("6. 🔥😍porn Hub collection 🖤💋", url="https://t.me/+StAWi9MLzZZhZTY8")
             ],[
-            InlineKeyboardButton("7.👄💦Aunty lovers 👻❤️‍🔥❤️‍🔥", url="https://t.me/+kh_w3pkctocyYzI0")  
+            InlineKeyboardButton("7.👄💦Aunty lovers 👻❤️‍🔥❤️‍🔥", url="https://t.me/Kolkata_Boudi1")  
             ],[
-            InlineKeyboardButton("8.😻🔥 𝗴𝗳 𝗯𝗳 𝗸𝗶 𝗰𝗵𝘂𝗱𝗮𝗶👅💋", url="https://t.me/dasi_video_sex")
+            InlineKeyboardButton("8.😻🔥 𝗴𝗳 𝗯𝗳 𝗸𝗶 𝗰𝗵𝘂𝗱𝗮𝗶👅💋", url="https://t.me/+ep_STD__5HE1ZTFl")
             ],[
             InlineKeyboardButton("9. DESI GF BF VIDEOS🥵🌚", url="https://t.me/+R4JHodCSQ2IzMDll")
             ],[
